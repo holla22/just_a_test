@@ -28,6 +28,7 @@ Commit a git project to your repository of choice (include all your instructions
 - git clone this repository
 - cd into interview-mz directory
 - run "poetry shell" to init virtual environment (assuming you have poetry installed)
+- run "poetry install"
 - run the bash script "get_up_and_running.sh", this will start flask in dev mode
 - POST data to the following URL: http://127.0.0.1:5000/data
 

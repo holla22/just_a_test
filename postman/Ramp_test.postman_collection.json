@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "a92f5b19-9acd-4b30-8255-f860c730871d",
+		"name": "Ramp_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post_Data",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"0\": \"0.1\", \"1\":\"0.9\", \"2\":\"0.123\", \"3\":\"0.99\" , \"4\":\"0.5\" , \"5\":\"1.0\" , \"6\":\"0\" }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/data",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

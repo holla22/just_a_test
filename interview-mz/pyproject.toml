@@ -8,6 +8,7 @@ authors = ["morne.zeelie <holla22@gmail.com>"]
 python = "^3.8"
 Flask = "^1.1.2"
 pandas = "^1.2.3"
+numpy = "^1.20.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
